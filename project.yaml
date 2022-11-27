@@ -1,5 +1,5 @@
 name: ortelius
-kind: Project
+kind: project
 backend: default
 variables:
   organization: ortelius

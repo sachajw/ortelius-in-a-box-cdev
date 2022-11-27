@@ -1,0 +1,18 @@
+name: |
+kind: StackTemplate
+cliVersion: ">=0.6.1"
+units:
+  - name: dev
+    type: "k8s-manifest"
+    namespace: "ortelius-dev"
+    create_namespaces: true
+    path: "./dev"
+    apply_template: true
+    kubeconfig: "$KUBECONFIG"
+    kubectl_opts: "--wait-true"
+    pre-hook:
+      command: "echo pre-hook"
+      # script: "./scripts/hook.sh"
+      on-apply: true
+      on-destroy: false
+      on-plan: false

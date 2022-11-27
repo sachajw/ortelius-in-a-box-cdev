@@ -1,0 +1,6 @@
+name: ortelius-in-a-box
+kind: Project
+backend: default
+variables:
+  organization: ortelius
+  domain: "cluster.dev"

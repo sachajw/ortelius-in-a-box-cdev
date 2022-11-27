@@ -1,4 +1,4 @@
-name: |
+name: dev
 kind: StackTemplate
 cliVersion: ">=0.6.1"
 units:

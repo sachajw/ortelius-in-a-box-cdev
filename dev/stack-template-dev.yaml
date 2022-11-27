@@ -1,6 +1,6 @@
 name: dev
 kind: StackTemplate
-cliVersion: ">=0.6.1"
+cliVersion: ">=0.7.4"
 units:
   - name: dev
     type: "k8s-manifest"
